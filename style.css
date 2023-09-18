@@ -19,8 +19,9 @@ a
 {
     text-decoration: none;
     color: #ffff;
+    z-index: 10000;
 }
-.content a:checked
+a:active
 {
     
     color: #ffff;
