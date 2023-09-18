@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Personal Website</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/2048px-Google_Scholar_logo.svg.png">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#aboutme">About me</a></li>
+            <li class="link"><a href="#projects">Portfolio</a></li>
+            <li class="link"><a href="#skills">Skills</a></li>
+            <li class="link"><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn"><i class='bx bx-message-square-dots' style="color: #fff; padding-right: 5px;"></i>Hire Me</button>
+    </nav>
+
+    <header class="container" id="aboutme">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>Computer Science,<br> Cybersecurity student</h4>
+            <h1>Hi, I'm <span>Oskar</span>, Web Developer</h1>
+            <p >
+I'm delighted that you've visited this website; it serves as my portfolio. I hope you find it appealing and that you'll
+explore it in its entirety.
+            </p>
+            <button class="btn"><i class='bx bx-search-alt-2'></i>Who am I?</button>
+            <button class="btn"><i class='bx bx-briefcase' style="color: #fff; padding-right: 5px;"></i>Download CV</button>
+            
+        </div>
+        <div class="image">
+            <img src="https://taglineinfotech.com/wp-content/uploads/2022/01/web-dev-help-cal.png">
+        </div>
+    </header>
+    <section class="container">
+        <h2 class="header" id="projects">WHAT I'VE DONE</h2>
+        <div class="projects">
+            <div class="card">
+                <span><i class='bx bxl-html5' style="color: #e46928;"></i><i class='bx bxl-css3'
+                        style='color: rgb(30, 157, 253)' ;></i><i class='bx bxl-javascript' style='color:yellow'></i></span>
+                
+                <h4>[temp desc]</h4>
+                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--JvNg6LJ---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/i/5ct9nhbw6gdpb8dh0yy1.png">
+                <p>[temp desc]I build websites like this one</p>
+                <button class="btnprojects">Check out</button>
+            </div>
+            <div class="card">
+                <span><i class='bx bx-brain'></i></span>
+                <h4>[temp desc]</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi atque ex sit vel, error excepturi quod
+                    sunt suscipit, accusantium natus inventore nobis veritatis odit impedit velit quae aliquid, ipsam
+                    consectetur!</p>
+                <button class="btnprojects">Check out</button>
+            </div>
+            <div class="card">
+                <span><i class='bx bx-brain'></i></span>
+                <h4>[temp desc]</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi atque ex sit vel, error excepturi quod
+                    sunt suscipit, accusantium natus inventore nobis veritatis odit impedit velit quae aliquid, ipsam
+                    consectetur!</p>
+                <button class="btnprojects">Check out</button>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <h2 class="header" id="skills">MY SKILLS</h2>
+        <div class="skills">
+            <div class="card">
+                <span><i class='bx bx-user-check' style="left: 3px;"></i></span>
+                <h4>Team-Work</h4>
+                <p>I am a dedicated team player with a proven track record of collaborating effectively in diverse group settings. My ability to
+                contribute positively to team dynamics, combined with my strong work ethic and adaptability, enables me to deliver
+                exceptional results in collaborative endeavors</p>
+            </div>
+            <div class="card">
+                <span><i class='bx bx-shuffle'></i></span>
+                <h4>Flexibility</h4>
+                <p>I am a highly adaptable individual, capable of seamlessly adjusting to changing circumstances and diverse work
+                environments. My flexibility enables me to effectively tackle new challenges and contribute positively to various
+                projects and teams</p>
+            </div>
+            <div class="card">
+                <span><i class='bx bx-brain'></i></span>
+                <h4>Critical Thinking</h4>
+                <p>I possess strong critical thinking skills, allowing me to analyze complex situations, make well-informed decisions, and
+                solve problems efficiently. My ability to think critically enhances my problem-solving capabilities and contributes to
+                effective decision-making in professional contexts.</p>
+            </div>
+            <div class="card">
+                <span><i class='bx bxs-flag-alt'></i></span>
+                <h4>Leadership</h4>
+                <p>I have strong leadership skills, demonstrated through my ability to inspire and guide teams toward achieving their
+                goals. My leadership qualities include effective communication, decision-making, and a commitment to fostering a
+                collaborative and motivated work environment</p>
+            </div>
+        </div>  
+    </section>
+    <section class="container">
+        <h2 class="header" id="contact">Contact</h2>
+        <div class="contacts">
+            <form action="mailto:witczakoskar1602@gmail.com" method="post" enctype="text/plain">
+                <h2 style="font-size: 24px;">Send me an e-mail:</h2>
+                Name:<br>
+                <input type="text" name="name"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="50"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+            <div class="contactmedia">
+                <ul class="contactlinks">
+                    <li class="contactlink"><a href="#"><i class='bx bxl-linkedin-square' style='color:#0562dc'></i> LinkedIn</a></li>
+                    <li class="contactlink"><a href="#"> <i class='bx bxl-github' style='color:#ffffff'></i> GitHub</a></li>
+                    <li class="contactlink"><a href="#"><i class='bx bxl-facebook-circle' style='color:#1642e1'></i> Facebook </a></li>
+                    <li class="contactlink"><a href="#"><i class='bx bxl-instagram' style='color:#e605f6'></i> Instagram </a></li>
+                </ul>
+                
+                <h3>Thanks for visiting,<br> see You next time!</h3>
+            </div>
+           
+        </div>
+    </section>
+    
+    <footer>
+        <p>Author: Oskar Witczak</p>
+        <p><a href="#">WitczakOskar1602@gmail.com</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
